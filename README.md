@@ -127,10 +127,10 @@ The model successfully classifies MRI images into different Alzheimer's disease 
 ---
 
 ## Author
-**Sunitha Seervi**
-**Vishwa Aradhya S M**
-**Ramya M**
-**Sharan Kumar**
+**1.Sunitha Seervi, **
+**2.Vishwa Aradhya S M, **
+**3.Ramya M, **
+**4.Sharan Kumar**
 
 Information Science and Engineering
 
