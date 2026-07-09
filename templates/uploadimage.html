@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload Image | Alzheimer's Classification</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="/static/brain.png" />
+    <style>
+        body {
+            background: linear-gradient(to right, #0f172a, #1e293b);
+        }
+    </style>
+</head>
+
+<body class="text-white font-sans">
+
+    <!-- 🌐 Navbar -->
+    <nav class="bg-gray-900 bg-opacity-90 fixed w-full top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-indigo-400 tracking-wide">
+                🧠 Alzheimer's Classifier
+            </div>
+
+            <ul class="hidden md:flex space-x-8 text-lg">
+                <li><a href="/" class="hover:text-indigo-300">Home</a></li>
+                <li><a href="#" class="text-indigo-400 font-semibold hover:text-indigo-300">Predict</a></li>
+                <li><a href="/#about" class="hover:text-indigo-300">About</a></li>
+                <li><a href="/#stages" class="hover:text-indigo-300">Stages</a></li>
+                <li><a href="/performance" class="hover:text-indigo-300">Performance</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 🧩 Upload Section -->
+    <section class="pt-32 pb-16 flex flex-col items-center justify-center text-center px-6">
+
+        <h1 class="text-5xl font-bold text-indigo-400 mb-8">
+            Upload Brain MRI for Classification
+        </h1>
+        <p class="text-gray-300 max-w-2xl mb-10">
+            Our deep learning model analyzes MRI scans to predict the level of Alzheimer’s disease
+            — helping identify <span class="text-indigo-400 font-semibold">Non Demented, Very Mild, Mild,</span> or
+            <span class="text-indigo-400 font-semibold">Moderate Demented</span> conditions.
+        </p>
+
+        <!-- Upload Card -->
+        <div class="bg-gray-800 bg-opacity-70 backdrop-blur-lg rounded-2xl shadow-2xl p-8 w-full max-w-lg">
+            <h2 class="text-2xl font-semibold text-indigo-400 mb-6">Upload MRI Image</h2>
+
+            <!-- Flash Messages -->
+            <div class="text-red-500 font-medium mb-4">
+                {% for message in get_flashed_messages() %}
+                {{ message }}
+                {% endfor %}
+            </div>
+
+            <!-- Upload Form -->
+            <form action="uploadimage" method="POST" enctype="multipart/form-data" class="space-y-6">
+                <div>
+                    <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg" required
+                        class="block w-full text-sm text-gray-300 bg-gray-900 border border-gray-700 rounded-lg cursor-pointer focus:outline-none file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-indigo-600 file:text-white hover:file:bg-indigo-700 transition" />
+                </div>
+
+                <!-- Image Preview -->
+                <div class="flex justify-center">
+                    <img id="imagePreview" alt="Selected Image Preview"
+                        class="hidden rounded-xl border border-gray-700 shadow-md max-w-xs max-h-64 object-cover mt-4" />
+                </div>
+
+                <button type="submit"
+                    class="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg text-lg font-semibold shadow-lg transition transform hover:scale-105">
+                    🔍 Detect
+                </button>
+            </form>
+        </div>
+
+        <!-- 🧠 Result Display -->
+        {%if result%}
+        <div
+            class="bg-gray-800 bg-opacity-70 backdrop-blur-lg rounded-2xl shadow-2xl p-8 mt-10 text-center w-full max-w-lg">
+            <h2 class="text-2xl font-semibold text-indigo-400">Classification Result:</h2>
+            <p class="text-3xl font-bold text-red-400 mt-3">{{ result }}</p>
+            <h3 class="text-xl font-semibold text-gray-300 mt-4">Probability</h3>
+            <p class="text-2xl font-bold text-green-400 mt-2">{{ prob }}</p>
+        </div>
+        <!-- Charts Section -->
+        <div class="mt-10 w-full max-w-4xl mx-auto bg-white p-6 rounded-xl shadow-lg">
+
+
+            <h3 class="text-lg font-bold text-purple-800 text-center mb-4">Confidence Comparison</h3>
+
+            <div class="flex justify-center space-x-6">
+                <!-- Pie Chart -->
+                <div class="w-1/2">
+                    <canvas id="pieChart"></canvas>
+                </div>
+
+                <!-- Bar Chart -->
+                <div class="w-1/2">
+                    <canvas id="barChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <script>
+            // Data from Flask
+            const Mild_prob = {{ Mild_prob }};
+            const Moderate_prob = {{ Moderate_prob }};
+            const Nondem_prob = {{ Nondem_prob }};
+            const Very_Mild_prob = {{ Very_Mild_prob }};
+
+            // Labels
+            const labels = ['Mild Demented', 'Moderate Demented', 'Non Demented', 'Very Mild Demented'];
+
+            // Data Array
+            const dataValues = [Mild_prob, Moderate_prob, Nondem_prob, Very_Mild_prob];
+
+            // Pie Chart
+            new Chart(document.getElementById('pieChart'), {
+                type: 'pie',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        data: dataValues,
+                        backgroundColor: [
+                            '#6366F1', // Indigo
+                            '#EC4899', // Pink
+                            '#22C55E', // Green
+                            '#F59E0B'  // Amber
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+
+            // Bar Chart
+            new Chart(document.getElementById('barChart'), {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Prediction Confidence (%)',
+                        data: dataValues,
+                        backgroundColor: [
+                            '#6366F1',
+                            '#EC4899',
+                            '#22C55E',
+                            '#F59E0B'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: { beginAtZero: true, max: 100 }
+                    }
+                }
+            });
+        </script>
+
+
+        {%endif%}
+
+    </section>
+
+    <!-- 💬 Footer -->
+    <footer class="bg-gray-900 bg-opacity-90 py-6 text-center text-gray-400">
+        <p>Alzheimer’s Classification Project | Built with Flask & VGG16</p>
+    </footer>
+
+    <!-- 🧩 Image Preview Script -->
+    <script>
+        document.getElementById('imageUpload').addEventListener('change', function (event) {
+            const file = event.target.files[0];
+            const imagePreview = document.getElementById('imagePreview');
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    imagePreview.src = e.target.result;
+                    imagePreview.classList.remove('hidden');
+                };
+                reader.readAsDataURL(file);
+            } else {
+                imagePreview.src = '';
+                imagePreview.classList.add('hidden');
+            }
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,571 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "secure_filename",
+        "importPath": "werkzeug.utils",
+        "description": "werkzeug.utils",
+        "isExtraImport": true,
+        "detail": "werkzeug.utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "importPath": "keras.models",
+        "description": "keras.models",
+        "isExtraImport": true,
+        "detail": "keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "Model",
+        "importPath": "keras.models",
+        "description": "keras.models",
+        "isExtraImport": true,
+        "detail": "keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "tensorflow",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "detail": "tensorflow",
+        "documentation": {}
+    },
+    {
+        "label": "load_img",
+        "importPath": "tensorflow.keras.preprocessing.image",
+        "description": "tensorflow.keras.preprocessing.image",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.preprocessing.image",
+        "documentation": {}
+    },
+    {
+        "label": "img_to_array",
+        "importPath": "tensorflow.keras.preprocessing.image",
+        "description": "tensorflow.keras.preprocessing.image",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.preprocessing.image",
+        "documentation": {}
+    },
+    {
+        "label": "ImageDataGenerator",
+        "importPath": "tensorflow.keras.preprocessing.image",
+        "description": "tensorflow.keras.preprocessing.image",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.preprocessing.image",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "Input",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Flatten",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Dense",
+        "importPath": "tensorflow.keras.layers",
+        "description": "tensorflow.keras.layers",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Model",
+        "importPath": "tensorflow.keras.models",
+        "description": "tensorflow.keras.models",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.models",
+        "documentation": {}
+    },
+    {
+        "label": "ResNet50",
+        "importPath": "tensorflow.keras.applications",
+        "description": "tensorflow.keras.applications",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.applications",
+        "documentation": {}
+    },
+    {
+        "label": "ModelCheckpoint",
+        "importPath": "tensorflow.keras.callbacks",
+        "description": "tensorflow.keras.callbacks",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "importPath": "glob",
+        "description": "glob",
+        "isExtraImport": true,
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "importPath": "glob",
+        "description": "glob",
+        "isExtraImport": true,
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "Input",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Flatten",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "Dense",
+        "importPath": "keras.layers",
+        "description": "keras.layers",
+        "isExtraImport": true,
+        "detail": "keras.layers",
+        "documentation": {}
+    },
+    {
+        "label": "VGG16",
+        "importPath": "keras.applications.vgg16",
+        "description": "keras.applications.vgg16",
+        "isExtraImport": true,
+        "detail": "keras.applications.vgg16",
+        "documentation": {}
+    },
+    {
+        "label": "ImageDataGenerator",
+        "importPath": "keras.preprocessing.image",
+        "description": "keras.preprocessing.image",
+        "isExtraImport": true,
+        "detail": "keras.preprocessing.image",
+        "documentation": {}
+    },
+    {
+        "label": "ModelCheckpoint",
+        "importPath": "keras.callbacks",
+        "description": "keras.callbacks",
+        "isExtraImport": true,
+        "detail": "keras.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def home():\n    return render_template('index.html', title='index')\n@app.route('/uploadimagepage')\ndef uploadimagepage():\n    return render_template('uploadimage.html', title='upload image')\ndef preprocess(image_path):\n    test_image = load_img(image_path, target_size = (224,224))\n    test_image = img_to_array(test_image)\n    test_image = np.expand_dims(test_image, axis = 0)\n    test_image = test_image/255",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "uploadimagepage",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def uploadimagepage():\n    return render_template('uploadimage.html', title='upload image')\ndef preprocess(image_path):\n    test_image = load_img(image_path, target_size = (224,224))\n    test_image = img_to_array(test_image)\n    test_image = np.expand_dims(test_image, axis = 0)\n    test_image = test_image/255\n    return test_image\n@app.route('/uploadimage', methods=['GET','POST'])\ndef uploadimage():",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def preprocess(image_path):\n    test_image = load_img(image_path, target_size = (224,224))\n    test_image = img_to_array(test_image)\n    test_image = np.expand_dims(test_image, axis = 0)\n    test_image = test_image/255\n    return test_image\n@app.route('/uploadimage', methods=['GET','POST'])\ndef uploadimage():\n    uploaded_file = request.files['file']\n    if uploaded_file.filename != '':",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "uploadimage",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def uploadimage():\n    uploaded_file = request.files['file']\n    if uploaded_file.filename != '':\n            # Save the uploaded file to a specific folder\n            filename = 'static/uploads/' + uploaded_file.filename\n            onlyfilename=uploaded_file.filename\n            print(filename)\n            uploaded_file.save(filename)\n            test_image= preprocess(filename)\n            prediction = model.predict(test_image)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\napp.config['SECRET_KEY'] = 'secret_key'\nmodel=load_model(\"alzimers.h5\")\n@app.route('/')\ndef home():\n    return render_template('index.html', title='index')\n@app.route('/uploadimagepage')\ndef uploadimagepage():\n    return render_template('uploadimage.html', title='upload image')\ndef preprocess(image_path):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SECRET_KEY']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['SECRET_KEY'] = 'secret_key'\nmodel=load_model(\"alzimers.h5\")\n@app.route('/')\ndef home():\n    return render_template('index.html', title='index')\n@app.route('/uploadimagepage')\ndef uploadimagepage():\n    return render_template('uploadimage.html', title='upload image')\ndef preprocess(image_path):\n    test_image = load_img(image_path, target_size = (224,224))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "IMAGE_SIZE",
+        "kind": 5,
+        "importPath": "resntmodel",
+        "description": "resntmodel",
+        "peekOfCode": "IMAGE_SIZE = [224, 224]\ntargetsize = (224, 224)\ntrain_path = 'dataset/train'\nvalid_path = 'dataset/test'\n# Load the ResNet50 model with imagenet weights and exclude the top layers\nresnet = ResNet50(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False)\n# Freeze the pre-trained layers\nfor layer in resnet.layers:\n    layer.trainable = False\n# Get the number of output classes based on the folders in your dataset",
+        "detail": "resntmodel",
+        "documentation": {}
+    },
+    {
+        "label": "targetsize",
+        "kind": 5,
+        "importPath": "resntmodel",
+        "description": "resntmodel",
+        "peekOfCode": "targetsize = (224, 224)\ntrain_path = 'dataset/train'\nvalid_path = 'dataset/test'\n# Load the ResNet50 model with imagenet weights and exclude the top layers\nresnet = ResNet50(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False)\n# Freeze the pre-trained layers\nfor layer in resnet.layers:\n    layer.trainable = False\n# Get the number of output classes based on the folders in your dataset\nfolders = glob('dataset/train/*')",
+        "detail": "resntmodel",
+        "documentation": {}
+    },
+    {
+        "label": "train_path",
+        "kind": 5,
+        "importPath": "resntmodel",
+        "description": "resntmodel",
+        "peekOfCode": "train_path = 'dataset/train'\nvalid_path = 'dataset/test'\n# Load the ResNet50 model with imagenet weights and exclude the top layers\nresnet = ResNet50(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False)\n# Freeze the pre-trained layers\nfor layer in resnet.layers:\n    layer.trainable = False\n# Get the number of output classes based on the folders in your dataset\nfolders = glob('dataset/train/*')\nprint(\"Dataset Loaded\")",
+        "detail": "resntmodel",
+        "documentation": {}
+    },
+    {
+        "label": "valid_path",
+        "kind": 5,
+        "importPath": "resntmodel",
+        "description": "resntmodel",
+        "peekOfCode": "valid_path = 'dataset/test'\n# Load the ResNet50 model with imagenet weights and exclude the top layers\nresnet = ResNet50(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False)\n# Freeze the pre-trained layers\nfor layer in resnet.layers:\n    layer.trainable = False\n# Get the number of output classes based on the folders in your dataset\nfolders = glob('dataset/train/*')\nprint(\"Dataset Loaded\")\n# Add your custom layers on top of ResNet50",
+        "detail": "resntmodel",
+        "documentation": {}
+    },
+    {
+        "label": "resnet",
+        "kind": 5,
+        "importPath": "resntmodel",
+        "description": "resntmodel",
+        "peekOfCode": "resnet = ResNet50(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False)\n# Freeze the pre-trained layers\nfor layer in resnet.layers:\n    layer.trainable = False\n# Get the number of output classes based on the folders in your dataset\nfolders = glob('dataset/train/*')\nprint(\"Dataset Loaded\")\n# Add your custom layers on top of ResNet50\nx = Flatten()(resnet.output)\nprediction = Dense(len(folders), activation='softmax')(x)",
+        "detail": "resntmodel",
+        "documentation": {}
+    },
+    {
+        "label": "folders",
+        "kind": 5,
+        "importPath": "resntmodel",
+        "description": "resntmodel",
+        "peekOfCode": "folders = glob('dataset/train/*')\nprint(\"Dataset Loaded\")\n# Add your custom layers on top of ResNet50\nx = Flatten()(resnet.output)\nprediction = Dense(len(folders), activation='softmax')(x)\n# Create the model\nmodel = Model(inputs=resnet.input, outputs=prediction)\n# Display the model summary\nmodel.summary()\n# Compile the model",
+        "detail": "resntmodel",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "resntmodel",
+        "description": "resntmodel",
+        "peekOfCode": "x = Flatten()(resnet.output)\nprediction = Dense(len(folders), activation='softmax')(x)\n# Create the model\nmodel = Model(inputs=resnet.input, outputs=prediction)\n# Display the model summary\nmodel.summary()\n# Compile the model\nmodel.compile(\n    loss='categorical_crossentropy',\n    optimizer='adam',",
+        "detail": "resntmodel",
+        "documentation": {}
+    },
+    {
+        "label": "prediction",
+        "kind": 5,
+        "importPath": "resntmodel",
+        "description": "resntmodel",
+        "peekOfCode": "prediction = Dense(len(folders), activation='softmax')(x)\n# Create the model\nmodel = Model(inputs=resnet.input, outputs=prediction)\n# Display the model summary\nmodel.summary()\n# Compile the model\nmodel.compile(\n    loss='categorical_crossentropy',\n    optimizer='adam',\n    metrics=['accuracy']",
+        "detail": "resntmodel",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "resntmodel",
+        "description": "resntmodel",
+        "peekOfCode": "model = Model(inputs=resnet.input, outputs=prediction)\n# Display the model summary\nmodel.summary()\n# Compile the model\nmodel.compile(\n    loss='categorical_crossentropy',\n    optimizer='adam',\n    metrics=['accuracy']\n)\n# Image Data Augmentation for training and validation sets",
+        "detail": "resntmodel",
+        "documentation": {}
+    },
+    {
+        "label": "train_datagen",
+        "kind": 5,
+        "importPath": "resntmodel",
+        "description": "resntmodel",
+        "peekOfCode": "train_datagen = ImageDataGenerator(rescale=1./255,\n                                   shear_range=0.2,\n                                   zoom_range=0.2,\n                                   horizontal_flip=True)\ntest_datagen = ImageDataGenerator(rescale=1./255)\n# Generate image data from directories\ntraining_set = train_datagen.flow_from_directory(train_path,\n                                                 target_size=targetsize,\n                                                 batch_size=32,\n                                                 class_mode='categorical')",
+        "detail": "resntmodel",
+        "documentation": {}
+    },
+    {
+        "label": "test_datagen",
+        "kind": 5,
+        "importPath": "resntmodel",
+        "description": "resntmodel",
+        "peekOfCode": "test_datagen = ImageDataGenerator(rescale=1./255)\n# Generate image data from directories\ntraining_set = train_datagen.flow_from_directory(train_path,\n                                                 target_size=targetsize,\n                                                 batch_size=32,\n                                                 class_mode='categorical')\ntest_set = test_datagen.flow_from_directory(valid_path,\n                                            target_size=targetsize,\n                                            batch_size=32,\n                                            class_mode='categorical')",
+        "detail": "resntmodel",
+        "documentation": {}
+    },
+    {
+        "label": "training_set",
+        "kind": 5,
+        "importPath": "resntmodel",
+        "description": "resntmodel",
+        "peekOfCode": "training_set = train_datagen.flow_from_directory(train_path,\n                                                 target_size=targetsize,\n                                                 batch_size=32,\n                                                 class_mode='categorical')\ntest_set = test_datagen.flow_from_directory(valid_path,\n                                            target_size=targetsize,\n                                            batch_size=32,\n                                            class_mode='categorical')\nprint(test_set)\n# Add ModelCheckpoint to save the best performing model",
+        "detail": "resntmodel",
+        "documentation": {}
+    },
+    {
+        "label": "test_set",
+        "kind": 5,
+        "importPath": "resntmodel",
+        "description": "resntmodel",
+        "peekOfCode": "test_set = test_datagen.flow_from_directory(valid_path,\n                                            target_size=targetsize,\n                                            batch_size=32,\n                                            class_mode='categorical')\nprint(test_set)\n# Add ModelCheckpoint to save the best performing model\ncheckpoint = ModelCheckpoint('alzimers_resnet50.h5', monitor='val_accuracy', verbose=1, save_best_only=True, mode='max')\n# Train the model\nr = model.fit(\n    training_set,",
+        "detail": "resntmodel",
+        "documentation": {}
+    },
+    {
+        "label": "checkpoint",
+        "kind": 5,
+        "importPath": "resntmodel",
+        "description": "resntmodel",
+        "peekOfCode": "checkpoint = ModelCheckpoint('alzimers_resnet50.h5', monitor='val_accuracy', verbose=1, save_best_only=True, mode='max')\n# Train the model\nr = model.fit(\n    training_set,\n    validation_data=test_set,\n    epochs=20,\n    steps_per_epoch=len(training_set),\n    validation_steps=len(test_set),\n    callbacks=[checkpoint]\n)",
+        "detail": "resntmodel",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "resntmodel",
+        "description": "resntmodel",
+        "peekOfCode": "r = model.fit(\n    training_set,\n    validation_data=test_set,\n    epochs=20,\n    steps_per_epoch=len(training_set),\n    validation_steps=len(test_set),\n    callbacks=[checkpoint]\n)\n# Plot and save the training & validation loss\nplt.plot(r.history['loss'], label='Train Loss')",
+        "detail": "resntmodel",
+        "documentation": {}
+    },
+    {
+        "label": "IMAGE_SIZE",
+        "kind": 5,
+        "importPath": "transfer_learning_vgg_16",
+        "description": "transfer_learning_vgg_16",
+        "peekOfCode": "IMAGE_SIZE = [224, 224]\ntargetsize = (224, 224)\ntrain_path = 'dataset/train'\nvalid_path = 'dataset/test'\n# Import the Vgg 16 library as shown below and add preprocessing layer to the front of VGG\n# Here we will be using imagenet weights\nvgg = VGG16(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False)\n# don't train existing weights\nfor layer in vgg.layers:\n    layer.trainable = False",
+        "detail": "transfer_learning_vgg_16",
+        "documentation": {}
+    },
+    {
+        "label": "targetsize",
+        "kind": 5,
+        "importPath": "transfer_learning_vgg_16",
+        "description": "transfer_learning_vgg_16",
+        "peekOfCode": "targetsize = (224, 224)\ntrain_path = 'dataset/train'\nvalid_path = 'dataset/test'\n# Import the Vgg 16 library as shown below and add preprocessing layer to the front of VGG\n# Here we will be using imagenet weights\nvgg = VGG16(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False)\n# don't train existing weights\nfor layer in vgg.layers:\n    layer.trainable = False\n# useful for getting number of output classes",
+        "detail": "transfer_learning_vgg_16",
+        "documentation": {}
+    },
+    {
+        "label": "train_path",
+        "kind": 5,
+        "importPath": "transfer_learning_vgg_16",
+        "description": "transfer_learning_vgg_16",
+        "peekOfCode": "train_path = 'dataset/train'\nvalid_path = 'dataset/test'\n# Import the Vgg 16 library as shown below and add preprocessing layer to the front of VGG\n# Here we will be using imagenet weights\nvgg = VGG16(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False)\n# don't train existing weights\nfor layer in vgg.layers:\n    layer.trainable = False\n# useful for getting number of output classes\nfolders = glob('dataset/train/*')",
+        "detail": "transfer_learning_vgg_16",
+        "documentation": {}
+    },
+    {
+        "label": "valid_path",
+        "kind": 5,
+        "importPath": "transfer_learning_vgg_16",
+        "description": "transfer_learning_vgg_16",
+        "peekOfCode": "valid_path = 'dataset/test'\n# Import the Vgg 16 library as shown below and add preprocessing layer to the front of VGG\n# Here we will be using imagenet weights\nvgg = VGG16(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False)\n# don't train existing weights\nfor layer in vgg.layers:\n    layer.trainable = False\n# useful for getting number of output classes\nfolders = glob('dataset/train/*')\nprint(\"Dataset Loaded\")",
+        "detail": "transfer_learning_vgg_16",
+        "documentation": {}
+    },
+    {
+        "label": "vgg",
+        "kind": 5,
+        "importPath": "transfer_learning_vgg_16",
+        "description": "transfer_learning_vgg_16",
+        "peekOfCode": "vgg = VGG16(input_shape=IMAGE_SIZE + [3], weights='imagenet', include_top=False)\n# don't train existing weights\nfor layer in vgg.layers:\n    layer.trainable = False\n# useful for getting number of output classes\nfolders = glob('dataset/train/*')\nprint(\"Dataset Loaded\")\n# our layers - you can add more if you want\nx = Flatten()(vgg.output)\nprediction = Dense(len(folders), activation='softmax')(x)",
+        "detail": "transfer_learning_vgg_16",
+        "documentation": {}
+    },
+    {
+        "label": "folders",
+        "kind": 5,
+        "importPath": "transfer_learning_vgg_16",
+        "description": "transfer_learning_vgg_16",
+        "peekOfCode": "folders = glob('dataset/train/*')\nprint(\"Dataset Loaded\")\n# our layers - you can add more if you want\nx = Flatten()(vgg.output)\nprediction = Dense(len(folders), activation='softmax')(x)\n# create a model object\nmodel = Model(inputs=vgg.input, outputs=prediction)\n# view the structure of the model\nmodel.summary()\n# tell the model what cost and optimization method to use",
+        "detail": "transfer_learning_vgg_16",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "transfer_learning_vgg_16",
+        "description": "transfer_learning_vgg_16",
+        "peekOfCode": "x = Flatten()(vgg.output)\nprediction = Dense(len(folders), activation='softmax')(x)\n# create a model object\nmodel = Model(inputs=vgg.input, outputs=prediction)\n# view the structure of the model\nmodel.summary()\n# tell the model what cost and optimization method to use\nmodel.compile(\n    loss='categorical_crossentropy',\n    optimizer='adam',",
+        "detail": "transfer_learning_vgg_16",
+        "documentation": {}
+    },
+    {
+        "label": "prediction",
+        "kind": 5,
+        "importPath": "transfer_learning_vgg_16",
+        "description": "transfer_learning_vgg_16",
+        "peekOfCode": "prediction = Dense(len(folders), activation='softmax')(x)\n# create a model object\nmodel = Model(inputs=vgg.input, outputs=prediction)\n# view the structure of the model\nmodel.summary()\n# tell the model what cost and optimization method to use\nmodel.compile(\n    loss='categorical_crossentropy',\n    optimizer='adam',\n    metrics=['accuracy']",
+        "detail": "transfer_learning_vgg_16",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "transfer_learning_vgg_16",
+        "description": "transfer_learning_vgg_16",
+        "peekOfCode": "model = Model(inputs=vgg.input, outputs=prediction)\n# view the structure of the model\nmodel.summary()\n# tell the model what cost and optimization method to use\nmodel.compile(\n    loss='categorical_crossentropy',\n    optimizer='adam',\n    metrics=['accuracy']\n)\n# Use the Image Data Generator to import the images from the dataset",
+        "detail": "transfer_learning_vgg_16",
+        "documentation": {}
+    },
+    {
+        "label": "train_datagen",
+        "kind": 5,
+        "importPath": "transfer_learning_vgg_16",
+        "description": "transfer_learning_vgg_16",
+        "peekOfCode": "train_datagen = ImageDataGenerator(rescale=1./255,\n                                   shear_range=0.2,\n                                   zoom_range=0.2,\n                                   horizontal_flip=True)\ntest_datagen = ImageDataGenerator(rescale=1./255)\n# Make sure you provide the same target size as initialized for the image size\ntraining_set = train_datagen.flow_from_directory(train_path,\n                                                 target_size=targetsize,\n                                                 batch_size=32,\n                                                 class_mode='categorical')",
+        "detail": "transfer_learning_vgg_16",
+        "documentation": {}
+    },
+    {
+        "label": "test_datagen",
+        "kind": 5,
+        "importPath": "transfer_learning_vgg_16",
+        "description": "transfer_learning_vgg_16",
+        "peekOfCode": "test_datagen = ImageDataGenerator(rescale=1./255)\n# Make sure you provide the same target size as initialized for the image size\ntraining_set = train_datagen.flow_from_directory(train_path,\n                                                 target_size=targetsize,\n                                                 batch_size=32,\n                                                 class_mode='categorical')\ntest_set = test_datagen.flow_from_directory(valid_path,\n                                            target_size=targetsize,\n                                            batch_size=32,\n                                            class_mode='categorical')",
+        "detail": "transfer_learning_vgg_16",
+        "documentation": {}
+    },
+    {
+        "label": "training_set",
+        "kind": 5,
+        "importPath": "transfer_learning_vgg_16",
+        "description": "transfer_learning_vgg_16",
+        "peekOfCode": "training_set = train_datagen.flow_from_directory(train_path,\n                                                 target_size=targetsize,\n                                                 batch_size=32,\n                                                 class_mode='categorical')\ntest_set = test_datagen.flow_from_directory(valid_path,\n                                            target_size=targetsize,\n                                            batch_size=32,\n                                            class_mode='categorical')\nprint(test_set)\n# Add checkpoint to save the best model during training",
+        "detail": "transfer_learning_vgg_16",
+        "documentation": {}
+    },
+    {
+        "label": "test_set",
+        "kind": 5,
+        "importPath": "transfer_learning_vgg_16",
+        "description": "transfer_learning_vgg_16",
+        "peekOfCode": "test_set = test_datagen.flow_from_directory(valid_path,\n                                            target_size=targetsize,\n                                            batch_size=32,\n                                            class_mode='categorical')\nprint(test_set)\n# Add checkpoint to save the best model during training\nfrom keras.callbacks import ModelCheckpoint\ncheckpoint = ModelCheckpoint('alzimers.h5', monitor='val_accuracy', verbose=1, save_best_only=True, mode='max')\n# fit the model\n# Run the cell. It will take some time to execute",
+        "detail": "transfer_learning_vgg_16",
+        "documentation": {}
+    },
+    {
+        "label": "checkpoint",
+        "kind": 5,
+        "importPath": "transfer_learning_vgg_16",
+        "description": "transfer_learning_vgg_16",
+        "peekOfCode": "checkpoint = ModelCheckpoint('alzimers.h5', monitor='val_accuracy', verbose=1, save_best_only=True, mode='max')\n# fit the model\n# Run the cell. It will take some time to execute\nr = model.fit(\n    training_set,\n    validation_data=test_set,\n    epochs=20,\n    steps_per_epoch=len(training_set),\n    validation_steps=len(test_set),\n    callbacks=[checkpoint]",
+        "detail": "transfer_learning_vgg_16",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "transfer_learning_vgg_16",
+        "description": "transfer_learning_vgg_16",
+        "peekOfCode": "r = model.fit(\n    training_set,\n    validation_data=test_set,\n    epochs=20,\n    steps_per_epoch=len(training_set),\n    validation_steps=len(test_set),\n    callbacks=[checkpoint]\n)\n# Save the model after training\n#model.save('tomato.h5')",
+        "detail": "transfer_learning_vgg_16",
+        "documentation": {}
+    }
+]
